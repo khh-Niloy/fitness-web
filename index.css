@@ -38,7 +38,6 @@ body{
 /* header */
 header{
     padding-top: 2.5rem;
-    /* border:  2px solid red; */
 
 }
 
@@ -60,7 +59,7 @@ nav{
 
 .nav-list{
     width: 40%;
-    border: 1px solid #ffffff44;
+    border: 1px solid #ffffff37;
     border-radius: 5rem;
     padding: 0.4rem 1rem 0.5rem 0.19rem;
     
@@ -105,7 +104,6 @@ nav{
 
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
 
 }
 
@@ -129,8 +127,9 @@ nav{
 .text-container .sub-banner-title{
     margin: 1.75rem 0;
     color: #ffffffa8;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 200;
+    line-height: 1.2rem;
 }
 
 .text-container button{
@@ -138,7 +137,7 @@ nav{
     border-radius: 5rem;
     color: white;
     background-color: #E6533C;
-    padding: 0.6rem 2.4rem;
+    padding: 0.7rem 2.4rem;
     margin-right: 0.3rem;
     font-size: 0.8rem;
 }
@@ -149,7 +148,6 @@ nav{
 }
 
 .banner-img-holder{
-    /* width: 50%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,9 +165,8 @@ nav{
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.187);
     backdrop-filter: blur(2rem);
-
-    top: 8.5rem;
-    right: -1.5rem;
+    top: 25%;
+    right: -8%;
 }
 
 #img-text1 h1{
@@ -191,12 +188,12 @@ nav{
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.091);
     backdrop-filter: blur(2rem);
+    top: 72%;
+    left: -12%;
 
     display: flex;
     align-items: center;
 
-    top: 23rem;
-    left: -3rem;
 }
 
 #img-text2 h1{
@@ -216,6 +213,18 @@ nav{
     background-color: #E6533C;
     border-radius: 50%;
     margin-right: 0.7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-div .triangle{
+    width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 8px solid #ffffff;
+	border-bottom: 5px solid transparent;
 }
 
 
@@ -227,7 +236,6 @@ main{
     width: 73%;
     width: 58.4rem;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 
 
@@ -354,13 +362,15 @@ main{
     }
 
     .text-container .sub-banner-title {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         width: 73%;
+        margin: 1.75rem 0 1rem;
     }
 
     .text-container button {
-        padding: 1.2rem 2.38rem;
+        padding: 1rem 1.9rem;;
         font-size: 1rem;
+        margin-top: 1rem;
     }
 
     .banner-img-holder {
@@ -373,12 +383,51 @@ main{
     }
 
     #img-text1 {
-        top: 2.5rem;
-        right: 1.7rem;
+        top: 10%;
+        right: 7%;
     }
 
     #img-text2 {
-        top: 17rem;
-        left: 1.5rem;
+        top: 45%;
+        left:7%;
+    }
+
+
+
+    /* main */
+    main {
+        width: 90%;
+    }
+
+
+    /* habit section */
+    .habit-section {
+        margin: 3.5rem 0rem 6rem;
+    }
+
+    .habit-section-text-container {
+        margin-bottom: 3.5rem;
+    }
+
+    .main-section-title {
+        font-size: 2.2rem;
+    }
+
+    .habit-section-text-container p {
+        width: 100%;
+        line-height: 1.3rem;
+    }
+
+    .rounded-pic-container {
+        flex-direction: column;
+    }
+
+    .rounded-item-card {
+        width: 90%;
+    }
+
+    .rounded-item-card p {
+        margin-bottom: 3rem;
+        width: 50%;
     }
 }
