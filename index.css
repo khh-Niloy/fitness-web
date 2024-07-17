@@ -253,5 +253,51 @@ nav{
 
 
     /* banner section */
+    .banner-section {
+        width: 90%;
+        flex-direction: column;
+    }
 
+    .text-container {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .banner-section .banner-title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .text-container .shape-text {
+        font-size: 5.5rem;
+    }
+
+    .text-container .sub-banner-title {
+        font-size: 1.1rem;
+        width: 73%;
+    }
+
+    .text-container button {
+        padding: 1.2rem 2.38rem;
+        font-size: 1rem;
+    }
+
+    .banner-img-holder {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .banner-img-holder > img {
+        width: 95%;
+    }
+
+    #img-text1 {
+        top: 2.5rem;
+        right: 1.7rem;
+    }
+
+    #img-text2 {
+        top: 17rem;
+        left: 1.5rem;
+    }
 }
