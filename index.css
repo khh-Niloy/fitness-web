@@ -20,11 +20,24 @@ body{
     background-color: rgba(0, 0, 0, 0.991);
 }
 
+/* shared styles */
+.main-section-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.main-section-sub-title{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-top: 0.8rem;
+}
+
 
 
 /* header */
 header{
-    padding-top: 3.6rem;
+    padding-top: 2.5rem;
     /* border:  2px solid red; */
 
 }
@@ -207,6 +220,74 @@ nav{
 
 
 
+
+
+/* main section */
+main{
+    width: 73%;
+    width: 58.4rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+
+
+
+/* habit section */
+.habit-section{
+    margin: 6rem 0rem;
+}
+
+.habit-section-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.habit-section-text-container p{
+    width: 60%;
+    line-height: 1.3rem;
+}
+
+
+.rounded-pic-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rounded-item-card{
+    width: 21.5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded-item-card h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+}
+
+.rounded-item-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.rounded-item-card img{
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+}
 
 
 
