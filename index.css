@@ -22,7 +22,7 @@ body{
 
 /* shared styles */
 .main-section-title{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 900;
 }
 
@@ -140,6 +140,7 @@ nav{
     padding: 0.7rem 2.4rem;
     margin-right: 0.3rem;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 
 .text-container .download-btn{
@@ -280,7 +281,7 @@ main{
 
 .rounded-item-card h3{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 480;
     margin-top: 1.8rem;
 }
 
@@ -296,6 +297,69 @@ main{
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, 0.1);
 }
+
+
+
+
+
+
+/* run extra section */
+.run-extra-section{
+    width: 100%;
+    padding: 1.8rem 0;
+    margin: 8rem 0rem;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 1.2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-extra-text-container{
+    width: 40%;
+    margin-left: 3.375rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.run-extra-text-container p{
+    line-height: 1.3rem;
+    margin: 1.2rem 0 0;
+}
+
+.run-extra-text-container button{
+    padding: 0.9rem 0;
+    width: 50%;
+    height: 40%;
+    margin-top: 2rem;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.run-extra-img-holder{
+    height: 19rem;
+    width: 37.5%;
+    margin-right: 2rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.run-extra-img-holder img{
+    width: 100%;
+    transform: scale(3.2) translateX(-14%) translateY(16%);
+}
+
+
 
 
 
@@ -402,7 +466,7 @@ main{
 
     /* habit section */
     .habit-section {
-        margin: 3.5rem 0rem 6rem;
+        margin: 3.5rem 0rem 0rem;
     }
 
     .habit-section-text-container {
@@ -429,5 +493,44 @@ main{
     .rounded-item-card p {
         margin-bottom: 3rem;
         width: 50%;
+    }
+
+
+
+    /* run extra section */
+    .run-extra-section {
+        margin: 2rem 0rem;
+        flex-direction: column;
+    }
+
+    .run-extra-text-container {
+        width: 80%;
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .run-extra-text-container p {
+        width: 80%;
+    }
+
+    .run-extra-text-container button {
+        padding: 0.9rem 0;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .run-extra-img-holder {
+        width: 80%;
+        height: 13rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .run-extra-img-holder img {
+        transform: scale(1.6) translateX(-10%) translateY(9.5%);
     }
 }
