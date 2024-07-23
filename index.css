@@ -38,11 +38,9 @@ body{
 /* header */
 header{
     padding-top: 2.5rem;
+    background: radial-gradient(rgba(119, 119, 119, 0.345), rgb(0, 0, 0));
 }
 
-.header-container{
-    /* background-color: red; */
-}
 
 /* nav styling */
 nav{
@@ -112,7 +110,7 @@ nav{
 
 .text-container{
     width: 50%;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .banner-section .banner-title{
