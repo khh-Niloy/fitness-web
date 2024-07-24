@@ -666,7 +666,7 @@ tr:nth-child(2n){
 .photo-grid-container, .photo-grid-container-2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,17rem);
+    grid-template-rows: repeat(1,15rem);
     gap: 1rem;
 }
 
@@ -698,6 +698,7 @@ tr:nth-child(2n){
 
 
 .grid-item > img {
+    border-radius: 1.2rem;
     width: 100%;
     filter: brightness(80%);
     
@@ -1209,6 +1210,4 @@ footer hr{
     .routine-table {
         width: 50%;
     }
-
-
 }
