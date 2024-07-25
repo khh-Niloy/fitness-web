@@ -705,7 +705,7 @@ tr:nth-child(2n){
 }
 
 #box1 > img{
-    transform: scale(1.1) translateY(4%);
+    transform: scale(1.15) translateY(4%);
 }
 
 #box2 > img{
@@ -717,7 +717,7 @@ tr:nth-child(2n){
 }
 
 #box4 img{
-    transform: scale(1.7) translateY(20%);
+    transform: scale(1.8) translateY(20%);
 }
 
 #box5 img{
@@ -725,7 +725,7 @@ tr:nth-child(2n){
 }
 
 #box6 img{
-    transform: scale(1.2) translateY(4%);
+    transform: scale(1.28) translateY(4%);
 }
 
 
